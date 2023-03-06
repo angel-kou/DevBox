@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../task.yaml.schema.json
+
+name: choco
+command: "./choco.ps1"
+
+description: "Install different softwares using chocolatey"
+author: "jiakou@microsoft.com"
+documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
+licenseURL: "..."
+keywords: ['choco', 'chocolatey', 'install']
+timeout: 20
+inputs:
+  package:
+    type: string
+    description: "Specify the package to install using chocolatey"
+    allowedValues: ['vscode', 'notepadplusplus.install']
+    defaultValue: ""
+    isRequired: true
