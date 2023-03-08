@@ -11,8 +11,8 @@ keywords: ['choco', 'chocolatey', 'install']
 timeout: 20
 inputs:
   package:
-    type: string
-    description: "Specify the package to install using chocolatey"
-    allowed: ['vscode', 'notepadplusplus.install']
-    default: ""
-    required: true
+    - type: string
+      description: "Specify the package to install using chocolatey"
+      allowed: ['vscode', 'notepadplusplus.install']
+      default: ""
+      required: true
