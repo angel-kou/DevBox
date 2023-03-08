@@ -15,4 +15,4 @@ inputs:
     description: "Specify the package to install using chocolatey"
     allowedValues: ['vscode', 'notepadplusplus.install']
     defaultValue: ""
-    isRequired: true
+    required: true
