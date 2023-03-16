@@ -13,6 +13,6 @@ inputs:
   - package:
       - type: string
         description: "Specify the package to install using chocolatey"
-        allowed: ['vscode', 'notepadplusplus.install']
-        default: ""
+        allowedValues: ['vscode', 'notepadplusplus.install']
+        defaultValue: ""
         required: true
