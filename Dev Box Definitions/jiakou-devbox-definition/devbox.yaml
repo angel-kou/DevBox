@@ -9,6 +9,5 @@ setupTasks:
     - task: choco
       inputs:
         - package: notepadplusplus.install
-        - install: 7zip
         
 supportsHibernation: true
