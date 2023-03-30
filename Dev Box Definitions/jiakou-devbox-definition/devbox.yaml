@@ -8,6 +8,7 @@ hostInformation: general_a_8c32gb256ssd_v2
 setupTasks:
     - task: choco
       inputs:
-        - package: notepadplusplus.install
+        package: notepadplusplus.install
+        version: 1.0
         
 supportsHibernation: true
