@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../devbox.yaml.schema.json
+
+name: first-level-devbox-definition
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+
+hostInformation: general_a_8c32gb256ssd_v2
+
+setupTasks:
+    - task: choco
+      inputs:
+        package: notepadplusplus.install
+        version: 1.0
+        
+supportsHibernation: true
