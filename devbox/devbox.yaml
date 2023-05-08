@@ -6,7 +6,7 @@ image: /subscriptions/dbf77359-2037-45ca-aa27-a3df4fae9251/resourceGroups/angel-
 hostInformation: general_a_8c32gb256ssd_v1
 
 setupTasks:
-    - task:
+    - task: powershell
       inputs:
         package: notepadplusplus.install
         version: 1.0
