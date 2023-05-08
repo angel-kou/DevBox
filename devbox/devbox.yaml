@@ -3,7 +3,7 @@
 name: test-devbox-definition
 image: /subscriptions/dbf77359-2037-45ca-aa27-a3df4fae9251/resourceGroups/angel-resource/providers/Microsoft.DevCenter/devcenters/angel-devcenter/galleries/Default/images/microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
-hostInformation: general_a_8c32gb_v1
+hostInformation: general_a_8c32gb256ssd_v1
 
 setupTasks:
     - task:
