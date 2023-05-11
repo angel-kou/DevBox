@@ -11,4 +11,3 @@ setupTasks:
         package: notepadplusplus.install
         version: 1.0
         
-supportsHibernation:
