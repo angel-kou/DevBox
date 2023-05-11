@@ -3,7 +3,7 @@
 name: angel
 image: general_a_8c32gb256ssd_v2
 
-hostInformation: general_a_8c32gb256ssd_v1
+hostInformation:
 
 setupTasks:
     - task: choco
