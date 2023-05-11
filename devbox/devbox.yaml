@@ -3,12 +3,12 @@
 name: angel-devbox-definition
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
-hostInformation: general_a_8c32gb256ssd_v
+hostInformation: general_a_8c32gb256ssd_v2
 
 setupTasks:
-    - task: powershell
+    - task: choco
       inputs:
         package: notepadplusplus.install
         version: 1.0
         
-supportsHibernation: true
+supportsHibernation:
