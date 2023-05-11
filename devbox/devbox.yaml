@@ -10,4 +10,4 @@ setupTasks:
       inputs:
         package: notepadplusplus.install
         version: 1.0
-supportsHibernation: abc
+supportsHibernation: true
