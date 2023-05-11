@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=../../devbox.yaml.schema.json
 
-name: 
-image: general_a_8c32gb256ssd_v2
+name: angel1
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
-hostInformation:
+hostInformation: general_a_8c32gb256ssd_v1
 
 setupTasks:
     - task: choco
