@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
-name: choco
+name: power
 command: "aaa"
 
 description: "Install different softwares using chocolatey"
