@@ -10,7 +10,7 @@ setupTasks:
       inputs:
         package: notepadplusplus.install
         version: 1.0
-      task: powershell
+    - task: powershell
       inputs:
         package: notepadplusplus.install
         version: 1.0
