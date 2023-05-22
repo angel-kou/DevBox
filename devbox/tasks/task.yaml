@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
-name: 
+name: choco
 command: "aaa"
 
 description: "Install different softwares using chocolatey"
