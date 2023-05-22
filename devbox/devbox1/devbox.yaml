@@ -10,4 +10,8 @@ setupTasks:
       inputs:
         package: notepadplusplus.install
         version: 1.0
+      task: powershell
+      inputs:
+        package: notepadplusplus.install
+        version: 1.0
 supportsHibernation: true
