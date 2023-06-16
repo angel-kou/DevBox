@@ -1,14 +1,17 @@
 # yaml-language-server: $schema=../../devbox.yaml.schema.json
 
-name: jiakou-devbox-definition
-image: microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+name: first-git-devbox-definition
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
-hostInformation: general_a_8c32gb256ssd_v2
+hostInformation: general_a_8c32gb256ssd_v1
 
 setupTasks:
-    - task: choco
+    - task: magic
       inputs:
         package: notepadplusplus.install
         version: 1.0
-        
+    - task: magic
+      inputs:
+        package: notepadplusplus.install
+        version: 1.0
 supportsHibernation: true
