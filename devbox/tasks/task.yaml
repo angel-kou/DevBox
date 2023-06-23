@@ -21,3 +21,12 @@ inputs:
       description: "Specify the version of the package"
       defaultValue: ""
       required: true
+
+documentationExamples:
+  - task: powershell
+    inputs:
+      command: Write-Host "Hello World"
+  - task: powershell
+    inputs:
+      command: git clone https://github.com/Microsoft/vsts-tasks.git
+      workingDirectory: C:\\repos
