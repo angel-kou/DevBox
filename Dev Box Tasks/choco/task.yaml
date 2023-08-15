@@ -3,7 +3,7 @@
 name: choco
 command: "./choco.ps1"
 
-description: "Install different softwares using chocolatey"
+description: "Install softwares using chocolatey"
 author: "jiakou@microsoft.com"
 documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
 licenseURL: "..."
