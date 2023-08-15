@@ -3,14 +3,10 @@
 name: second-git-devbox-definition
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
-hostInformation: general_a_8c32gb256ssd_v1
+hostInformation: general_a_8c32gb256ssd_v2
 
 setupTasks:
-    - task: magic
-      inputs:
-        package: notepadplusplus.install
-        version: 1.0
-    - task: magic
+    - task: choco
       inputs:
         package: notepadplusplus.install
         version: 1.0
