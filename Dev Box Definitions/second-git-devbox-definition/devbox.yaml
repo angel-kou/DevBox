@@ -9,5 +9,5 @@ setupTasks:
     - task: choco
       inputs:
         package: notepadplusplus.install
-        version: 1.0
+        version: 1.1
 supportsHibernation: true
