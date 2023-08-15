@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
 name: powershell
-command: "aaa"
+command: "bbb"
 
 description: "Install different softwares using chocolatey"
 author: "jiakou@microsoft.com"
