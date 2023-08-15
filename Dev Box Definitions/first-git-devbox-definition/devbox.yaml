@@ -3,7 +3,7 @@
 name: first-git-devbox-definition
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
-hostInformation: general_a_8c32gb256ssd_v2
+hostInformation: general_i_16c64gb512ssd_v2
 
 setupTasks:
     - task: choco
