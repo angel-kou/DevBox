@@ -9,5 +9,4 @@ setupTasks:
     - task: choco
       inputs:
         package: notepadplusplus
-        version: 1.2
 supportsHibernation: true
