@@ -21,3 +21,7 @@ inputs:
       description: "Specify the version of the package"
       defaultValue: ""
       required: true
+  index:
+      type: number
+  isEnabled:
+      type: boolean
