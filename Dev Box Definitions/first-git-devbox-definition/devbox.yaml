@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../devbox.yaml.schema.json
 
-name: first-def
+name: first-deff
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
 hostInformation: general_i_16c64gb512ssd_v2
