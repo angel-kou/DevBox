@@ -8,7 +8,7 @@ author: "jiakou@microsoft.com"
 documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
 licenseURL: "..."
 keywords: ['choco', 'chocolatey', 'install']
-timeout: we
+timeout: 20
 inputs:
   package:
       type: string
@@ -16,6 +16,7 @@ inputs:
       allowedValues: ['vscode', 'notepadplusplus.install']
       defaultValue: ""
       required: true
+      random: e
   version:
       type: string
       description: "Specify the version of the package"
