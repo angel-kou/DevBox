@@ -9,4 +9,3 @@ documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
 licenseURL: "..."
 keywords: ['choco', 'chocolatey', 'install']
 timeout: 20
-inputs:
