@@ -11,12 +11,11 @@ keywords: ['choco', 'chocolatey', 'install']
 timeout: 20
 inputs:
   package:
-      type: string
+      type: s
       description: "Specify the package to install using chocolatey"
       allowedValues: ['vscode', 'notepadplusplus.install']
       defaultValue: ""
       required: true
-      random: e
   version:
       type: string
       description: "Specify the version of the package"
