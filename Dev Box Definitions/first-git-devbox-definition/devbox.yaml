@@ -10,5 +10,5 @@ setupTasks:
       inputs:
         package: notepadplusplus
         index: a
-        isEnabled: i
+        isEnabled: e
 supportsHibernation: true
