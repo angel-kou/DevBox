@@ -9,6 +9,6 @@ setupTasks:
     - task: choco
       inputs:
         package: notepadplusplus
-        index: t
+        index: a
         isEnabled: i
 supportsHibernation: true
