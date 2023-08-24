@@ -19,7 +19,6 @@ inputs:
   version:
       type: number
       description: "Specify the version of the package"
-      defaultValue: ""
       defaultValue: "1.0"
       required: true
   index:
