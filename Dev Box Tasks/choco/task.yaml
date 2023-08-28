@@ -24,4 +24,3 @@ inputs:
   index:
       type: number
       allowedValues: [1,2]
-  isEnable:
