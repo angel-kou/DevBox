@@ -9,4 +9,5 @@ setupTasks:
     - task: choco
       inputs:
         package: notepadplusplus.install
+    - task: powershell
 supportsHibernation: true
