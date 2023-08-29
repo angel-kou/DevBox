@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../task.yaml.schema.json
+
+name: random
+command: "dsd"
