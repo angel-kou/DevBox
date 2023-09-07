@@ -13,4 +13,5 @@ inputs:
   package:
       type: string
       description: "Specify the package to install using chocolatey"
+      allowedValues: ["abc"]
       required: true
