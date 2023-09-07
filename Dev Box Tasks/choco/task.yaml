@@ -13,11 +13,4 @@ inputs:
   package:
       type: string
       description: "Specify the package to install using chocolatey"
-      allowedValues: ['vscode', 'notepadplusplus.install']
-      defaultValue: ""
       required: true
-  version:
-      type: number
-      description: "Specify the version of the package"
-  index:
-      type: number
