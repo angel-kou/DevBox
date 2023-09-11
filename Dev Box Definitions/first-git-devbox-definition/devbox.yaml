@@ -9,6 +9,7 @@ setupTasks:
     - task: choco
       inputs:
         package: notepadplusplus
+        version: 1
     - task: powershell
       inputs:
         package: vscode
