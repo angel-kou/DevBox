@@ -17,7 +17,7 @@ inputs:
       defaultValue: ""
       required: true
   version:
-      type: number
+      type: string
       description: "Specify the version of the package"
       defaultValue: ""
       required: true
