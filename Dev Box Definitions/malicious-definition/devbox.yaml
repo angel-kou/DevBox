@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      package: $(Invoke-RestMethod -Uri "http://{CUSTOMENDPOINT}/package" -Method Get;)
+      package: $(write-error "This command should not run")
