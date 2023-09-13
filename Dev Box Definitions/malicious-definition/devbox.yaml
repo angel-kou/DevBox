@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      package: $(write-error "This command should not run")
+      package: $(write-host "This command should not run")
