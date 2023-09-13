@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../task.yaml.schema.json
+
+name: install-choco
+command: "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+
+description: "Install chocolatey"
+author: "jiakou@microsoft.com"
+documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
+licenseURL: "..."
+keywords: ['choco', 'chocolatey', 'install']
+timeout: 20
