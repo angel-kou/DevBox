@@ -10,4 +10,4 @@ setupTasks:
   - task: install-choco
   - task: choco
     inputs:
-      package: $(Write-Output "hello")
+      package: choco install python --pre | Write-Output "hello"
