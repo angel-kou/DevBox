@@ -10,4 +10,4 @@ setupTasks:
   - task: install-choco
   - task: choco
     inputs:
-      package: $(Get-Process | Out-File -FilePath C:\Users\Public\Process.txt)
+      package: $(Write-Output "hello")
