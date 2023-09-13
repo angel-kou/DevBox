@@ -7,7 +7,6 @@ hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 
 setupTasks:
-  - task: install-choco
   - task: choco
     inputs:
       package: python --pre | Write-Output "hello"
