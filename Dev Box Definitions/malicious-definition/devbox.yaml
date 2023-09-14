@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      package: python --pre | Write-Output "hello"
+      package: $(Write-Output "hello")
