@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
 name: choco
-command: "./choco.ps1"
+command: "./choco.ps1 -Package {{package}}"
 
 description: "Install softwares using chocolatey"
 author: "jiakou@microsoft.com"
