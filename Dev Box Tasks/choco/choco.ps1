@@ -3,4 +3,4 @@ param(
      [Parameter()]
      [string]$Package
  )
-choco install $Package
+choco install $Package -y
