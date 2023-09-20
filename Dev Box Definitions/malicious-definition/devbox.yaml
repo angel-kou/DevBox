@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      package: python | write-host 'ERROR!'
+      package: notepadplusplus | write-host 'ERROR!'
