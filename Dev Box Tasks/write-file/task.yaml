@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../../task.yaml.schema.json
+
+name: write-file
+command: "./write-file.ps1 -fileName {{fileName}}"
+inputs:
+  fileName:
+      type: string
+      required: true
