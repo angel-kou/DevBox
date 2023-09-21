@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      package: notepadplusplus;$(write-error 'ERROR!')
+      package: hello, "world"
