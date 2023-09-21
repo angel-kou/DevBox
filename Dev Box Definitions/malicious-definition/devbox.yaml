@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: write-file
     inputs:
-      fileName: hello, "world"
+      fileName: hello, \"world\"
