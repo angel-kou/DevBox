@@ -13,6 +13,5 @@ inputs:
       type: string
       description: "Specify the package to install using chocolatey"
       required: true
-      minLength: 5
-      maxLength: 10
+      maxLength:
       validationRegex: ^[a-zA-Z0-9]$
