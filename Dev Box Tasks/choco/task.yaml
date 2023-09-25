@@ -8,11 +8,10 @@ author: "jiakou@microsoft.com"
 documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
 licenseURL: "..."
 keywords: ['choco', 'chocolatey', 'install']
-timeout: gjdk
 inputs:
   package:
       type: string
       description: "Specify the package to install using chocolatey"
       required: true
-      maxLength: re
+      maxLength: 10
       validationRegex: ^[a-zA-Z0-9]$
