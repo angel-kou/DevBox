@@ -9,4 +9,4 @@ supportsHibernation: false
 setupTasks:
   - task: choco
     inputs:
-      fileName: $(helloo)
+      fileName: $(hello)
