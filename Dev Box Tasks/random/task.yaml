@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
-name: randomm
+name: random
 command: ""
 inputs:
   stringInput:
