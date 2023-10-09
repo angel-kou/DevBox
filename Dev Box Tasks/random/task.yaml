@@ -3,18 +3,6 @@
 name: random
 command: ""
 inputs:
-  inputWithInvalidType:
-      type: bool
-  onlyRelevantToString:
-      type: number
-      allowedValues: [ "1" ]
-      validationRegex: ""
-      minLength: 1
-      maxLength: 10
-  inputWithInvalidDefaultType:
-      type: boolean
-      defaultValue: yes
-      
   stringInput:
       type: string
       required: true
