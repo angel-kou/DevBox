@@ -6,7 +6,7 @@ inputs:
   inputMissingType:
   inputWithInvalidType:
       type: bool
-  inputOnlyRelevantToString:
+  onlyRelevantToString:
       type: number
       allowedValues: [ "1" ]
       validationRegex: ""
