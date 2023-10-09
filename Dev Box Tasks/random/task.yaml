@@ -1,4 +1,33 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
 name: random
-command: "dsd"
+command: ""
+inputs:
+  inputMissingType:
+  inputWithInvalidType:
+      type: bool
+  inputOnlyRelevantToString:
+      type: number
+      allowedValues: [ "1" ]
+      validationRegex: ""
+      minLength: 1
+      maxLength: 10
+  inputWithInvalidDefaultType:
+      type: boolean
+      defaultValue: yes
+      
+  stringInput:
+      type: string
+      required: true
+      validationRegex: ^(0|[1-9][0-9]*)$
+      minLength: 3
+      maxLength: 10
+  stringInputWithAllowedValues:
+      type: string
+      allowedValues: [ "ok" ]
+  booleanInput:
+      type: boolean
+  numberInput:
+      type: number
+      
+      
