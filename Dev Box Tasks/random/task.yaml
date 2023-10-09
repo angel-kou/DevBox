@@ -3,8 +3,6 @@
 name: random
 command: ""
 inputs:
-  inputMissingType:
-      type:
   inputWithInvalidType:
       type: bool
   onlyRelevantToString:
