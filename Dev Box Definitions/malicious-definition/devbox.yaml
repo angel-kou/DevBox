@@ -8,3 +8,5 @@ supportsHibernation: false
 
 setupTasks:
   - task: random
+    inputs:
+        package: notepadplusplus
