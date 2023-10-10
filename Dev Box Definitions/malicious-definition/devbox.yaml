@@ -10,7 +10,6 @@ setupTasks:
   - task: random
     inputs:
         inputNotDefined: not-defined
-        stringInputWithAllowedValues: notok
         stringInput: 1234
         booleanInput: yes
         
