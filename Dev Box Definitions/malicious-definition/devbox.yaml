@@ -8,7 +8,7 @@ supportsHibernation: false
 
 setupTasks:
   - task: random
-      inputs:
+    inputs:
         inputNotDefined: not-defined
         stringInputWithAllowedValues: notok
         stringInput: 1234
