@@ -9,7 +9,6 @@ supportsHibernation: false
 setupTasks:
   - task: random
     inputs:
-        stringInputWithAllowedValues: notok
         stringInput: 1
         
         
