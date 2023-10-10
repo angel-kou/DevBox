@@ -10,6 +10,6 @@ setupTasks:
   - task: random
     inputs:
         stringInputWithAllowedValues: notok
-        stringInput: invalid
+        stringInput: 1
         
         
