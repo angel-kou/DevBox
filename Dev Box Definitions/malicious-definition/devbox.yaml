@@ -7,8 +7,8 @@ hostInformation: general_i_32c128gb2048ssd_v2
 supportsHibernation: false
 
 setupTasks:
-  - task: random
+  - task: DefaultCatalog/powershell
     inputs:
-        stringInput: 1
+        command: Set-Content -Path 'C:\Users\Public\temp.txt' -Value 'no'
         
         
