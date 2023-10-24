@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
      [Parameter()]
-     [string]$fileName
+     [string]$Command
  )
-Set-Content -Path C:\Users\Public\temp.txt -Value $fileName
+powershell.exe -Command '$Command'
