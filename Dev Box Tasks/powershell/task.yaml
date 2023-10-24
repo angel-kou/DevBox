@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
-name: powershell
+name: powershell-task
 command: "bbb"
 
 description: "Install different softwares using chocolatey"
