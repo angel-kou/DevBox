@@ -3,4 +3,4 @@ param(
      [Parameter()]
      [string]$Command
  )
-powershell.exe -Command '$Command'
+powershell.exe -Command $Command
