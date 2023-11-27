@@ -8,5 +8,5 @@ hostInformation: general_i_16c64gb512ssd_v2
 setupTasks:
     - task: choco
       inputs:
-        package: notepadplusplus
+        package: notepad
 supportsHibernation: true
