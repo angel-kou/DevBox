@@ -9,9 +9,4 @@ setupTasks:
     - task: choco
       inputs:
         package: notepadplusplus
-    - task: powershell
-      inputs:
-        package: vscode
-        version: 1.0
-    - task: random
 supportsHibernation: true
