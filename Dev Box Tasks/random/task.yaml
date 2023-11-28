@@ -11,5 +11,6 @@ parameters:
       type: boolean
   numberInput:
       type: number
+customizationFileVersion: 2
       
       
