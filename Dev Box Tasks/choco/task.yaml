@@ -7,7 +7,7 @@ description: "Install softwares using chocolatey"
 author: "jiakou@microsoft.com"
 documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
 licenseURL: "..."
-keywords: ['choco', 'chocolatey', 'install']
+keywords: ['choco', 'chocolatey']
 inputs:
   package:
       type: string
