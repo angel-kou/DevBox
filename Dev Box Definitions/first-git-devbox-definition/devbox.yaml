@@ -10,4 +10,3 @@ setupTasks:
       inputs:
         package: notepad
 supportsHibernation: true
-Version: 1.1
