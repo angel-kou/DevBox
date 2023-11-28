@@ -2,16 +2,11 @@
 
 name: random
 command: ""
-inputs:
-  stringInput:
-      type: string
-      required: true
-      validationRegex: ^(0|[1-9][0-9]*)$
-      minLength: 3
-      maxLength: 10
+parameters:
   stringInputWithAllowedValues:
       type: string
-      allowedValues: [ "ok" ]
+      allowed: [ "ok" ]
+      default: "ok"
   booleanInput:
       type: boolean
   numberInput:
