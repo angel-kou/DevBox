@@ -10,4 +10,4 @@ tasks:
       parameters:
         package: notepadplusplus.install
 supportsHibernation: true
-customizationFileVersion: 2
+$schema: 1.0
