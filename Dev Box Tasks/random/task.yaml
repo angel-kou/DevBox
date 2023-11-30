@@ -11,6 +11,6 @@ parameters:
       type: boolean
   numberInput:
       type: number
-customizationFileVersion: 2
+  $schema: 1.0
       
       
