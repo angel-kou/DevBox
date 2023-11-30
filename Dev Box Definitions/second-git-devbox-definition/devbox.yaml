@@ -5,9 +5,8 @@ image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m36
 
 hostInformation: general_i_16c64gb512ssd_v2
 
-tasks:
-    - name: choco
-      parameters:
+setupTasks:
+    - task: choco
+      inputs:
         package: notepadplusplus.install
 supportsHibernation: true
-$schema: 1.0
