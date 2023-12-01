@@ -10,3 +10,4 @@ tasks:
       parameters:
         package: notepadplusplus.install
 supportsHibernation: true
+$schema: 1.0
