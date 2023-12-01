@@ -11,5 +11,5 @@ keywords: ['choco', 'chocolatey']
 inputs:
   package:
       type: string
-      description: "Specify the package to install using chocolatey"
+      description: "Specify package to install using chocolatey"
       required: true
