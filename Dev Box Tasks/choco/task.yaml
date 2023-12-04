@@ -13,3 +13,9 @@ inputs:
       type: string
       description: "Specify package to install using chocolatey"
       required: true
+documentation:
+  notes: example of choco task reference
+  examples:
+    task: choco
+    inputs:
+      package: python
