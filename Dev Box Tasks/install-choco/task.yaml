@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=../../task.yaml.schema.json
 
+$schema: 1.0
 name: install-choco
 command: "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
 
@@ -9,3 +10,16 @@ documentationURL: "https://docs.chocolatey.org/en-us/choco/commands/install"
 licenseURL: "..."
 keywords: ['choco', 'chocolatey', 'install']
 timeout: 20
+parameters:
+  package:
+      type: string
+      description: "Specify package to install using chocolatey"
+      required: true
+      allowed: ["1", "2"]
+      default: 1
+documentation:
+  notes: example of choco task reference
+  examples:
+    name: choco
+    parameters:
+      package: python
