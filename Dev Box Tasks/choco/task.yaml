@@ -16,6 +16,6 @@ inputs:
 documentation:
   notes: example of choco task reference
   examples:
-    task: choco
-    inputs:
-      package: python
+    - task: choco
+      inputs:
+        package: python
