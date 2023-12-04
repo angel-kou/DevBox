@@ -20,6 +20,6 @@ parameters:
 documentation:
   notes: example of choco task reference
   examples:
-    name: choco
-    parameters:
-      package: python
+    - name: choco
+      parameters:
+        package: python
