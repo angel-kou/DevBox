@@ -9,6 +9,6 @@ supportsHibernation: false
 setupTasks:
   - task: DefaultCatalog/powershell
     inputs:
-        command: Set-Content -Path 'C:\Users\Public\temp.txt' -Value 'ye'
+        command: Set-Content -Path 'C:\Users\Public\temp.txt' -Value 'yes'
         
         
