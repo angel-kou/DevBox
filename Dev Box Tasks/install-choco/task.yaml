@@ -18,7 +18,7 @@ parameters:
       allowed: ["1", "2"]
       default: 1
 documentation:
-  notes: example of choco task reference v2
+  notes: example of choco task reference
   examples:
     - name: choco
       parameters:
