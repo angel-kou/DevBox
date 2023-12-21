@@ -14,7 +14,7 @@ inputs:
       description: "Specify package to install using chocolatey"
       required: true
 documentation:
-  notes: example of choco task reference
+  notes: example of choco task ref
   examples:
     - task: choco
       inputs:
