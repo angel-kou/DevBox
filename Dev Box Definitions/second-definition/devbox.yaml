@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=../../devbox.yaml.schema.json
 
-name: second-def-angel
+$schema: 1.0
+name: second-definition-test
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 
 hostInformation: general_i_16c64gb512ssd_v2
@@ -10,4 +11,3 @@ tasks:
       parameters:
         package: notepadplusplus.install
 supportsHibernation: true
-$schema: 1.0
